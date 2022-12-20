@@ -720,8 +720,6 @@ void loop()
 
   timeH = timeClient.getHours();
 
-  // ? comment if - PC POWER
-
   if (timeH == 8 && night == 1)
   {
     check = 1;
